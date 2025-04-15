@@ -10,39 +10,42 @@
         <h2>Formularz Rejestracji</h2>
 
         <div class="section yellow">
-            <label>Płeć:</label><br>
-            <input type="radio" name="gender" value="mężczyzna"> Mężczyzna
-            <input type="radio" name="gender" value="kobieta"> Kobieta
+            <fieldset>
+            <div class="tab">Płeć:</div>
+            <legend>HHHH</legend>
+            <label><input type="radio" name="gender" value="mężczyzna"> Mężczyzna</label><br>
+            <label><input type="radio" name="gender" value="kobieta"> Kobieta</label>
+            </fieldset>
         </div>
 
         <div class="flex-row">
             <div class="section purple">
-                <label>Dane osobowe</label>
-                <br>Imię:<br>
-                <input type="text" name="imie">
-                <br>Nazwisko:<br>
+                <div class="tab">Dane osobowe</div>
+                Imię:<br>
+                <input type="text" name="imie"><br>
+                Nazwisko:<br>
                 <input type="text" name="nazwisko">
             </div>
 
             <div class="section purple">
-                <label>Dane adresowe</label>
-                <br>Miasto:<br>
-                <input type="text" name="miasto">
-                <br>Kod pocztowy:<br>
-                <input type="text" name="kod">
-                <br>Ulica:<br>
+                <div class="tab">Dane adresowe</div>
+                Miasto:<br>
+                <input type="text" name="miasto"><br>
+                Kod pocztowy:<br>
+                <input type="text" name="kod"><br>
+                Ulica:<br>
                 <input type="text" name="ulica">
             </div>
         </div>
 
         <div class="section green">
-            <label>Zabezpieczenie</label>
-            <br>Hasło:<br>
-            <input type="password" name="haslo">
-            <br>Powtórz hasło:<br>
+            <div class="tab">Zabezpieczenie</div>
+            Hasło:<br>
+            <input type="password" name="haslo"><br>
+            Powtórz hasło:<br>
             <input type="password" name="powtorz_haslo"><br><br>
-            <input type="checkbox" name="regulamin"> Akceptuję regulamin<br>
-            <input type="checkbox" name="dane"> Zgadzam się na przetwarzanie danych
+            <label><input type="checkbox" name="regulamin"> Akceptuję regulamin</label><br>
+            <label><input type="checkbox" name="dane"> Zgadzam się na przetwarzanie danych</label>
         </div>
 
         <button type="submit" class="btn">Zarejestruj się</button>
